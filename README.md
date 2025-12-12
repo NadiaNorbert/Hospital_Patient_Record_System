@@ -45,15 +45,9 @@ The system allows healthcare professionals to efficiently manage patient records
   
   ✅ Database backup and restore
 
-🏗️ System Architecture
-  
-  ┌─────────────────┐    ┌─────────────────┐    ┌─────────────────┐
-  │   Frontend      │    │   Backend API   │    │   MySQL         │
-  │   (HTML/CSS/JS) │◄──►│   (Flask)       │◄──►│   Database      │
-  └─────────────────┘    └─────────────────┘    └─────────────────┘
   
 📁 Project Structure
-text
+
 hospital-system/
 ├── hospital_system.py           
 ├── requirements.txt          
