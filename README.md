@@ -1,4 +1,5 @@
 Hospital Patient Record Management System
+
 📋 Project Overview
 A comprehensive Hospital Patient Record Management System with a modern web-based frontend and RESTful API backend. 
 The system allows healthcare professionals to efficiently manage patient records, track admissions and discharges, and generate reports.
@@ -61,8 +62,13 @@ hospital-system/
 
 Available endpoints:
   GET  /api/health        - Health check
+  
   GET  /api/dashboard     - Dashboard data
+  
   GET  /api/patients      - List patients
+  
   POST /api/patients      - Add patient
+  
   PUT  /api/patients/:id  - Update patient
+  
   DEL  /api/patients/:id  - Delete patient
